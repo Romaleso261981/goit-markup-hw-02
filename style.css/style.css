@@ -1,0 +1,54 @@
+:root {
+    --blue: #2196f3;
+    --grey: #757575;
+    --blue-button: #188ce8;
+    --primery-text-color: #212121;
+    --white-color: #ffffff;
+    --dark-grey: #2f303a;
+    --bg-ylight-gra: #f5f4fa;
+    --border-light-gra: #ececec;
+    --grayish-blue: #afb1b8;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    color: var(--primery-text-color);
+  }
+  .headr{
+      display: flex;
+      background-color: greenyellow;
+  }
+  .colortext {
+    color: var(--blue);
+  }
+  .logo {
+    text-transform: capitalize;
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.19em;
+    color: var(--primery-text-color);
+    text-decoration: none;
+    letter-spacing: 0.03em;
+  }
+  
+  .site-nav{
+      display: flex;
+
+  }
+  .site-nav .link {
+    display: flex;
+    color: var(--primery-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;
+  }
+  
+  .site-nav .link:hover,
+  .site-nav .link:focus {
+    color: var(--blue);
+  }
+  
+  .list {
+    list-style: none;
+  }
