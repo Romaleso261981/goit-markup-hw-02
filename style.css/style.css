@@ -28,10 +28,16 @@
     color: var(--primery-text-color);
     text-decoration: none;
     letter-spacing: 0.03em;
-  }
+    
+      }
   
   .site-nav{
       display: flex;
+      position: absolute;
+      width: 294px;
+      height: 16px;
+      left: 453px;
+      top: 32px;
 
   }
   .site-nav .link {
@@ -51,4 +57,14 @@
   
   .list {
     list-style: none;
+    
+  }
+  .contacts {
+    color: var(--grey);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1em;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0.02em;
   }
