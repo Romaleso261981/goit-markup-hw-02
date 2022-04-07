@@ -13,18 +13,21 @@ body {
   font-family: "Roboto", tahoma, sans-serif;
   /* color: var(--primery-text-color); */
 }
+
+/*-------------------------------------------------- HEADR ---------------------------------------------------*/
+
 .headr {
+  background-color: var(--bg-ylight-gra);
   /* display: flex; */
-  background-color;
-  display: flex;
 }
 .colortext {
   color: var(--blue);
 }
 
 .headr-logo {
+  list-style: none;
+  text-decoration: none;
   text-transform: capitalize;
-
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19em;
@@ -32,25 +35,17 @@ body {
 }
 
 .headr-nav {
-  display: flex;
 }
 .headr-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #212121;
 }
-/* .pading-0{
-  padding: 0px;
-}
-.marg-0{
-  margin: 0px;
-} */
-.list-none {
-  list-style: none;
-  text-decoration: none;
+.portfolio-color {
+  color: var(--blue-button);
 }
 
 .headr-link:hover,
@@ -58,46 +53,110 @@ body {
   color: var(--blue);
   font-size: 24px;
 }
+.headr-nav-contact {
+  /* list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between; */
+}
 
 .headr-mail {
   font-family: "Roboto", tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: #757575;
 }
-
 .headr-tel {
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
 }
 
-/* portfolio */
+/*------------------------------------------- navigation ---------------------------------------------------*/
 
-.portfolio-button_list {
-  display: flex;
-  text-align: center;
+.navigation-button_list {
   text-decoration: none;
   list-style: none;
 }
-.portfolio-button {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
+.navigation-button {
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
 
-
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
- background-color:var(--blue-button);
-color:var(--white-color);
-text-decoration: none;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
-.portfolio-button:hover,
-.portfolio-button:focus{
-background-color:var(--white-color);
-color:var(--blue);
+.navigation-button:hover,
+.navigation-button:focus {
+  background-color:var(--blue-button);
+  color:var(--white-color);
+}
+/*------------------------------------------ portfolio ---------------------------------------------------*/
+
+.portfolio {
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*------------------------------------------- footer ---------------------------------------------------*/
+
+.footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+  background: #2f303a;
+}
+.footer-logo {
+  list-style: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19em;
+  color: var(--white-color);
+}
+
+.footer-address-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
