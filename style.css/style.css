@@ -52,19 +52,14 @@ body {
   color: var(--blue);
 }
 
-.headr-mail {
+.headr-mail,
+.headr-tel {
   font-family: inherit;
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--grey);
-}
-.headr-tel {
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
 }
 
 /*------------------------------------------- heroStudio ---------------------------------------------------*/
@@ -80,22 +75,19 @@ body {
   color: var(--white-color);
 }
 .hero-btn {
+  font-family: inherit;
   width: 200px;
   height: 50px;
   background: var(--blue-button);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
-.hero-btn-text {
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-color);
 }
-
 /*------------------------------------------- descriptionStudio ---------------------------------------------------*/
 
 .description-title {
@@ -114,7 +106,8 @@ body {
 
 /*------------------------------------------- ourWorksStudio ---------------------------------------------------*/
 
-.our-works-title {
+.our-works-title,
+.OurTeam-title-main{
   font-size: 36px;
   line-height: 1.16;
   /* text-align: center; */
@@ -125,14 +118,6 @@ body {
 /*-------------------------------------------ourTeamStudio ---------------------------------------------------*/
 .OurTeam {
   background: var(--bg-ylight-gra);
-}
-
-.OurTeam-title-main {
-  font-size: 36px;
-  line-height: 1.16;
-  /* text-align: center; */
-  letter-spacing: 0.03em;
-  color: var(--primery-text-color);
 }
 
 .OurTeam-title {
@@ -174,15 +159,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--white-color);
 }
-.footer-mail {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
+.footer-mail,
 .footer-tel {
   font-weight: 400;
   font-style: normal;
@@ -191,7 +168,6 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-/* Portfolio */
 
 /*------------------------------------------- PortfolioNavigation ---------------------------------------------------*/
 
@@ -200,21 +176,17 @@ body {
   height: 38px;
   background: var(--bg-ylight-gra);
   border-radius: 4px;
-}
-.button-text {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
 }
-.button-text:hover,
-.button-text:focus {
-  color: var(--white-color);
-}
+
 .navigation-button:hover,
 .navigation-button:focus {
   background-color: var(--blue-button);
+  color: var(--white-color);
 }
 /*------------------------------------------ portfolioMain---------------------------------------------------*/
 
@@ -230,5 +202,3 @@ body {
   letter-spacing: 0.03em;
   color: var(--grey);
 }
-
-/*------------------------------------------- footer ---------------------------------------------------*/
