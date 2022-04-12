@@ -12,17 +12,23 @@
 }
 body {
   font-family: "Roboto", tahoma, sans-serif;
+  color: var(--primery-text-color);
 }
+.list {
+  text-decoration: none;
+}
+.link{
+  list-style-type: none;
+}
+
 /*--------------------------------------------- headr -----------------------------------------------*/
 
-.headr {
-}
 .headr-logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1, 19;
   color: var(--blue);
 }
 .headr-colortext {
@@ -46,6 +52,11 @@ body {
   line-height: 1.14px;
   letter-spacing: 0.02em;
   color: var(--grey);
+}
+
+.headr-link .headr-tel-link .headr-mail-link:focus,
+.headr-link .headr-tel-link .headr-mail-link:hover{
+  color: var(--blue);
 }
 /* -----------------------------------------------hero-------------------------------------------------- */
 .hero {
@@ -117,7 +128,7 @@ body {
   color: var(--grey);
 }
 /* -------------------------------------------------footer-------------------------------------------------- */
-.footer{
+.footer {
   background: var(--dark-grey);
 }
 .footer-logo {
@@ -134,20 +145,41 @@ body {
 }
 .footer-address-link {
   font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--white-color);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
 }
 .footer-mail-link {
   font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--primery-white-color);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primery-white-color);
 }
 
 .footer-tel-link {
   font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--primery-white-color);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primery-white-color);
+}
+/* ----------------------------------------------portfolio-------------------------------------------- */
+.navigation-list {
+}
+.navigation-item {
+}
+.navigation-btn {
+  background: var(--bg-ylight-gra);
+  border-radius: 4px;
+  cursor: pointer;
+  /* font-family: inherit; */
+  /* font-style: normal; */
+  /* font-weight: 500; */
+  /* font-size: 16px; */
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+.navigation-btn:hover,
+.navigation-btn:focus {
+  background-color: var(--blue);
+  color: var(--white-color);
 }
