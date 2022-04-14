@@ -20,11 +20,37 @@ body {
 .link {
   list-style: none;
 }
+.container {
+  width: 1600px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
 
 /*--------------------------------------------- headr -----------------------------------------------*/
+.header{
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 
 .headr-logo {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -43,12 +69,11 @@ body {
   color: var(--primery-text-color);
 }
 
-
 .headr-link:hover,
-.headr-link:focus{
+.headr-link:focus {
   color: var(--blue);
 }
-.current{
+.current {
   color: var(--blue);
 }
 
@@ -70,7 +95,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--grey);
 }
-.headr-tel-link:focus{
+.headr-tel-link:focus {
   color: var(--blue);
 }
 
@@ -81,6 +106,8 @@ body {
 /* -----------------------------------------------hero-------------------------------------------------- */
 .hero {
   background-color: var(--dark-grey);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -89,6 +116,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+  max-width: 694px;
 }
 .hero-btn {
   font-family: inherit;
@@ -105,6 +133,11 @@ body {
 }
 /* ---------------------------------------------description ------------------------------------------------- */
 /* стилі заголовка що скривається */
+.description{
+  padding-top: 101px;
+  padding-bottom: 87px;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -131,6 +164,9 @@ body {
   color: var(--grey);
 }
 /* ------------------------------------------------our-works--------------------------------------------------- */
+.our-works{
+
+}
 
 .our-works-main-title {
   font-size: 36px;
@@ -139,6 +175,11 @@ body {
   color: var(--primery-text-color);
 }
 /* ---------------------------------------------------OurTeam----------------------------------------------- */
+.OurTeam{
+  padding-bottom: 30px;
+  padding-top: 94px;
+}
+
 .OurTeam-main-title {
   font-size: 36px;
   line-height: 1.16;
@@ -162,16 +203,17 @@ body {
 /* -------------------------------------------------footer-------------------------------------------------- */
 .footer {
   background: var(--dark-grey);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--blue);
-  
 }
 .footer-colortext {
   color: var(--white-color);
