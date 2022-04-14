@@ -48,9 +48,12 @@ body {
 .headr-link:focus{
   color: var(--blue);
 }
+.current{
+  color: var(--blue);
+}
 
 .headr-tel-link {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -59,7 +62,7 @@ body {
   color: var(--grey);
 }
 .headr-mail-link {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -80,6 +83,7 @@ body {
   background-color: var(--dark-grey);
 }
 .hero-title {
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
@@ -88,6 +92,7 @@ body {
 }
 .hero-btn {
   font-family: inherit;
+  font-weight: 700;
   background: var(--blue);
   cursor: pointer;
   font-size: 16px;
@@ -136,17 +141,19 @@ body {
 /* ---------------------------------------------------OurTeam----------------------------------------------- */
 .OurTeam-main-title {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
 }
 .OurTeam-title {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
 }
 .OurTeam-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -196,7 +203,6 @@ body {
 .navigation-btn {
   background: var(--bg-ylight-gra);
   border-radius: 4px;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -213,19 +219,14 @@ body {
   border-radius: 4px;
 }
 .portfolio-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primery-text-color);
 }
 .portfolio-text {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
-  text-decoration: none;
 }
