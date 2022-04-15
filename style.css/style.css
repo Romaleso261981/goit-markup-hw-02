@@ -20,7 +20,7 @@ body {
 .link {
   list-style: none;
 }
-.container {
+/* .container {
   width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
@@ -40,13 +40,13 @@ ul,
 ol {
   margin: 0;
   padding: 0;
-}
+} */
 
 /*--------------------------------------------- headr -----------------------------------------------*/
-.header{
+/* .header{
   padding-top: 24px;
   padding-bottom: 25px;
-}
+} */
 
 
 .headr-logo {
@@ -104,11 +104,10 @@ ol {
   color: var(--blue);
 }
 /* -----------------------------------------------hero-------------------------------------------------- */
-.hero {
-  background-color: var(--dark-grey);
-  padding-top: 200px;
-  padding-bottom: 200px;
+.hero{
+  background: var(--dark-grey);
 }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -116,7 +115,6 @@ ol {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
-  max-width: 694px;
 }
 .hero-btn {
   font-family: inherit;
@@ -133,10 +131,6 @@ ol {
 }
 /* ---------------------------------------------description ------------------------------------------------- */
 /* стилі заголовка що скривається */
-.description{
-  padding-top: 101px;
-  padding-bottom: 87px;
-}
 
 .visually-hidden {
   position: absolute;
@@ -159,14 +153,12 @@ ol {
 }
 .description-text {
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--grey);
 }
 /* ------------------------------------------------our-works--------------------------------------------------- */
-.our-works{
-
-}
 
 .our-works-main-title {
   font-size: 36px;
@@ -175,12 +167,9 @@ ol {
   color: var(--primery-text-color);
 }
 /* ---------------------------------------------------OurTeam----------------------------------------------- */
-.OurTeam{
-  padding-bottom: 30px;
-  padding-top: 94px;
-}
 
 .OurTeam-main-title {
+  font-style: normal;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -201,11 +190,11 @@ ol {
   color: var(--grey);
 }
 /* -------------------------------------------------footer-------------------------------------------------- */
-.footer {
+
+.footer{
   background: var(--dark-grey);
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
+
 .footer-logo {
   font-family: "Raleway";
   font-style: normal;
@@ -222,12 +211,14 @@ ol {
   font-style: italic;
 }
 .footer-address-link {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-color);
 }
 .footer-mail-link {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -235,6 +226,7 @@ ol {
 }
 
 .footer-tel-link {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
