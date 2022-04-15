@@ -75,6 +75,10 @@ body {
 .headr-mail-link:hover {
   color: var(--blue);
 }
+.headr-tel-link:focus,
+.headr-tel-link:hover {
+  color: var(--blue);
+}
 /* -----------------------------------------------hero-------------------------------------------------- */
 
 .hero{
