@@ -79,7 +79,6 @@ ol {
 
 .headr-tel-link {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
@@ -88,7 +87,6 @@ ol {
 }
 .headr-mail-link {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -153,7 +151,6 @@ ol {
 }
 .description-text {
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--grey);
@@ -169,7 +166,6 @@ ol {
 /* ---------------------------------------------------OurTeam----------------------------------------------- */
 
 .OurTeam-main-title {
-  font-style: normal;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -211,14 +207,14 @@ ol {
   font-style: italic;
 }
 .footer-address-link {
-  font-weight: 400;
+  font-family: inherit;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-color);
 }
 .footer-mail-link {
-  font-weight: 400;
+  font-family: inherit;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -226,7 +222,7 @@ ol {
 }
 
 .footer-tel-link {
-  font-weight: 400;
+  font-family: inherit;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -235,14 +231,15 @@ ol {
 /* ----------------------------------------------portfolio-------------------------------------------- */
 
 .navigation-btn {
-  background: var(--bg-ylight-gra);
-  border-radius: 4px;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
+  background: var(--bg-ylight-gra);
+  border-radius: 4px;
 }
 .navigation-btn:hover,
 .navigation-btn:focus {
