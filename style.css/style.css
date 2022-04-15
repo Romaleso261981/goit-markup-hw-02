@@ -67,9 +67,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--grey);
 }
-.headr-tel-link:focus {
-  color: var(--blue);
-}
 
 .headr-mail-link:focus,
 .headr-mail-link:hover {
@@ -122,6 +119,7 @@ body {
   margin: -1px;
 }
 .description-title {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -137,6 +135,7 @@ body {
 /* ------------------------------------------------our-works--------------------------------------------------- */
 
 .our-works-main-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -145,6 +144,7 @@ body {
 /* ---------------------------------------------------OurTeam----------------------------------------------- */
 
 .OurTeam-main-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -229,6 +229,7 @@ body {
   border-radius: 4px;
 }
 .portfolio-title {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
