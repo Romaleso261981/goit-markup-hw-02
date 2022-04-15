@@ -142,7 +142,9 @@ body {
   color: var(--primery-text-color);
 }
 /* ---------------------------------------------------OurTeam----------------------------------------------- */
-
+.OurTeam{
+  background: var(--bg-ylight-gra);
+}
 .OurTeam-main-title {
   font-weight: 700;
   font-size: 36px;
@@ -240,4 +242,5 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+  color: var(--grey);
 }
