@@ -185,7 +185,7 @@ body {
   color: var(--white-color);
 }
 .footer-address {
-  font-style: italic;
+  font-style: normal;
 }
 .footer-address-link {
   font-family: inherit;
